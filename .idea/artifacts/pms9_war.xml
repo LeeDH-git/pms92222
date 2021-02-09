@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pms9:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pms9</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pms9-1.0.war">
+      <element id="artifact" artifact-name="pms9:war exploded" />
+    </root>
+  </artifact>
+</component>
